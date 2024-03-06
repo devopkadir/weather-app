@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    margin: 0;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    box-sizing: border-box;
+    overflow: hidden;
+    background: url(a.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    /* Set the height to 100% of the viewport height */
+    width: 100vw;
+    /* Set the width to 100% of the viewport width */
+    margin: 0;
+    /* Remove any default margin */
+}
+
+/* .bg {
+    background-image: url("a.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.weatherForm {
+    margin: 20px;
+}
+
+.cityInput {
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: greenyellow;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: green;
+}
+
+.card {
+    background: linear-gradient(180deg, rgb(0, 238, 255), rgb(73, 116, 17));
+    padding: 50px;
+    box-sizing: 2px 2px 5px black;
+    border-radius: 10px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 4.5rem;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    -webkit-text-stroke: 3px black;
+}
+
+p {
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+
+.cityDisplay,
+.tempDisplay {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 25px;
+}
+
+.humidityDisplay {
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.descDisplay {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.weatherEmoji {
+    margin: 0;
+    font-size: 7.5rem;
+}
+
+.errorDisplay {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+}
